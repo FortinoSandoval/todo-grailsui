@@ -1,0 +1,39 @@
+.loginFormContainer {
+  width: 25%;
+  margin: 15% auto 0 auto;
+  border: 1px solid #acacac;
+  padding: 20px 15px;
+  align-items: center;
+
+  .submitBtn {
+    display: block;
+    width: 100%;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #4dcbff;
+    color: #000000;
+
+    &:hover {
+      background-color: #00bbff;
+      color: #000000;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  .usernameLabel {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .usernameInput {
+    border: 1px solid #00000020;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+  }
+}
+

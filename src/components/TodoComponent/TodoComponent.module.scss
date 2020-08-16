@@ -1,0 +1,21 @@
+.todos {
+
+  .todo {
+    display: inline-block;
+    width: 20%;
+    border: 1px solid #000000;
+    margin: 1em 1em;
+    min-height: 100px;
+
+    p {
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .deleteX {
+    color: red;
+    margin: 215px 0 5px 10px;
+    cursor: pointer;
+  }
+}
